@@ -28,8 +28,10 @@ body {
 }
 
 .profilbild {
-    width: 22rem;
-    height: 22rem;
+    width: 24rem;
+    height: 27rem;
+    border-radius: 2rem;
+    margin-top: -42%;
 }
 
 .newname {
@@ -126,4 +128,39 @@ $animationSpeed: 40s;
         height: 100px;
         width: 250px;
     }
+}
+
+.newtitlesecond {
+    display: flex;
+    justify-content: center;
+    margin-top: -33%;
+}
+
+.newlinks {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.buttoncv {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 1rem;
+}
+
+.newlinks2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+a {
+    color: #DEDBD3 !important;
 }
